@@ -31,26 +31,26 @@
   </a>
 </nav>
 
-<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<!-- tamaño pequeño (Hidden o medium y large screens) -->
 <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
   <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
-    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">INICIO</a>
-    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">SOBRE MÍ</a>
-    <a href="#projects" class="w3-bar-item w3-button" style="width:25% !important">VER PROYECTOS</a>
-    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACTO</a>
+    <a href="#" class="w3-bar-item w3-button" class="nav">INICIO</a>
+    <a href="#about" class="w3-bar-item w3-button" class="nav">SOBRE MÍ</a>
+    <a href="#projects" class="w3-bar-item w3-button" class="nav">PROYECTOS</a>
+    <a href="#contact" class="w3-bar-item w3-button" class="nav">CONTACTO</a>
   </div>
 </div>
 
-<!-- Page Content -->
+<!-- contenido de la pagina -->
 <div class="w3-padding-large" id="main">
-  <!-- Header/Home -->
+  <!-- Header/inicio -->
   <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
     <h1 class="w3-jumbo"><span class="w3-hide-small">Soy</span> Andrea Ybañez.</h1>
     <p>Front-End Developer.</p>
     <img src="imagenes/perfil3.jpeg" class="w3-image" width="400" height="400">
   </header>
 
-  <!-- About Section -->
+  <!-- Información de la sección -->
   <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
     <h2 class="w3-text-light-grey">Sobre mí</h2>
     <hr style="width:200px" class="w3-opacity">
@@ -76,19 +76,15 @@
     <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
       <div class="w3-quarter w3-section">
         <span class="w3-xlarge">11+</span><br>
-        Partners
+        cursos
       </div>
       <div class="w3-quarter w3-section">
         <span class="w3-xlarge">5+</span><br>
         Proyectos
       </div>
       <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">89+</span><br>
+        <span class="w3-xlarge">7+</span><br>
         Certificaciones
-      </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">150+</span><br>
-        Meetings
       </div>
     </div>
 
@@ -96,7 +92,7 @@
       <i class="fa fa-download"></i>Descargar CV
     </button>
     </a> 
-    <!-- Grid for pricing tables -->
+    <!-- tablas de mis proyectos -->
     <h3 class="w3-padding-16 w3-text-light-grey" id="projects">Mis proyectos</h3>
     <div class="w3-row-padding" style="margin:0 -16px">
       <div class="w3-half">
@@ -151,46 +147,10 @@
           </li>
         </ul>
       </div>
-    <!-- End Grid/Pricing tables -->
     </div>
-    
-    <!-- Testimonials -->
-    <h3 class="w3-padding-24 w3-text-light-grey">My Reputation</h3>  
-    <img src="/w3images/bandmember.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
-    <p><span class="w3-large w3-margin-right">Chris Fox.</span> CEO at Mighty Schools.</p>
-    <p>Jane Doe saved us from a web disaster.</p><br>
-    
-    <img src="/w3images/avatar_g2.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
-    <p><span class="w3-large w3-margin-right">Rebecca Flex.</span> CEO at Company.</p>
-    <p>No one is better than Jane Doe.</p>
-  <!-- End About Section -->
-  </div>
-  
-  <!-- Portfolio Section -->
-  <div class="w3-padding-64 w3-content" id="photos">
-    <h2 class="w3-text-light-grey">My Photos</h2>
-    <hr style="width:200px" class="w3-opacity">
+    <!-- Final de los poyectos realizados -->
 
-    <!-- Grid for photos -->
-    <div class="w3-row-padding" style="margin:0 -16px">
-      <div class="w3-half">
-        <img src="/w3images/wedding.jpg" style="width:100%">
-        <img src="/w3images/rocks.jpg" style="width:100%">
-        <img src="/w3images/sailboat.jpg" style="width:100%">
-      </div>
-
-      <div class="w3-half">
-        <img src="/w3images/underwater.jpg" style="width:100%">
-        <img src="/w3images/chef.jpg" style="width:100%">
-        <img src="/w3images/wedding.jpg" style="width:100%">
-        <img src="/w3images/p6.jpg" style="width:100%">
-      </div>
-    <!-- End photo grid -->
-    </div>
-  <!-- End Portfolio Section -->
-  </div>
-
-  <!-- Contact Section -->
+ <!-- contacto de portafolio -->
   <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
     <h2 class="w3-text-light-grey">Contactame</h2>
     <hr style="width:200px" class="w3-opacity">
@@ -200,23 +160,10 @@
       <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Telefono: 01-930 692 689</p>
       <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Correo: andrea270696@gmail.com</p>
     </div><br>
-    <p>Lets get in touch. Send me a message:</p>
 
-    <form action="/action_page.php" target="_blank">
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
-      <p>
-        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
-          <i class="fa fa-paper-plane"></i> SEND MESSAGE
-        </button>
-      </p>
-    </form>
-  <!-- End Contact Section -->
   </div>
   
-    <!-- Footer -->
+    <!--inicio del Footer -->
   <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
     <h3 class="w3-padding-24 w3-text-light-grey">Encuentrame en redes sociales</h3>  
     <a href="https://web.facebook.com/andrea.ibanezesquerre"><i class="fa fa-facebook-official w3-hover-opacity"> Facebook</i></a><br>
@@ -224,10 +171,10 @@
     <a href="https://twitter.com/@esquerreandrea"><i class="fa fa-twitter w3-hover-opacity"> Twitter</i></a><br>
     <a href="https://www.linkedin.com/in/andrea-yba%C3%B1ez-esquerre-2832a8138/"><i class="fa fa-linkedin w3-hover-opacity"> LinkedIn</i></a>
     <p class="w3-medium">Creado por: Andrea Ybañez</p>
-  <!-- End footer -->
+  <!-- Final del footer -->
   </footer>
   
-<!-- END PAGE CONTENT -->
+<!-- final de todo el contenido -->
 </div>
 
 </body>

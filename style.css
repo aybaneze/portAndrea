@@ -19,6 +19,10 @@ body, h1,h2,h3,h4,h5,h6 {
     }
 }
 
+.nav{
+    width: 25% !important;
+}
+
 .imgProject{
     width: 100%;
     height: 70%;
